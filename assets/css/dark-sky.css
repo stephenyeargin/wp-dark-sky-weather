@@ -1,0 +1,79 @@
+/* Widget */
+.dark-sky-weather-widget .dark-sky-weather-container {
+  text-align: center;
+  back-ground-color: #fff;
+  width: 100%;
+  clear: both;
+  border: solid 1px #bababa;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.dark-sky-weather-widget .dark-sky-weather-icon {
+  margin: 1em;
+}
+
+.dark-sky-weather-widget .dark-sky-summary {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.dark-sky-weather-widget .dark-sky-weather-temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.dark-sky-weather-widget .dark-sky-weather-conditions {
+  font-size: 1rem;
+}
+
+.dark-sky-weather-widget .dark-sky-weather-attribution {
+  margin-top: -1.5em;
+  font-size: 0.5em;
+  text-align: right;
+}
+
+/* Shortcode */
+.dark-sky-weather-shortcode .dark-sky-weather-container {
+  back-ground-color: #fff;
+  min-height: 135px;
+  min-width: 320px;
+  clear: both;
+  border: solid 1px #bababa;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.dark-sky-weather-shortcode .dark-sky-weather-icon {
+  float: left;
+  max-width: 135px;
+  margin-right: 15px;
+}
+.dark-sky-weather-shortcode .dark-sky-weather-icon img {
+  border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+}
+
+.dark-sky-weather-shortcode .dark-sky-summary {
+  float: left;
+}
+
+.dark-sky-weather-shortcode .dark-sky-weather-temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.dark-sky-weather-shortcode .dark-sky-weather-conditions {
+  font-size: 1rem;
+}
+
+.dark-sky-weather-shortcode .dark-sky-weather-attribution {
+  margin-top: -1.5em;
+  font-size: 0.5em;
+  text-align: right;
+}
