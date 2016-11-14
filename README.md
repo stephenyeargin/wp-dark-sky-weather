@@ -54,6 +54,14 @@ A default option, which will use either Nashville, or the defaults specified in 
 
 ![Settings Screenshot](assets/screenshots/settings.png)
 
+## Development
+
+### Compile the SCSS
+
+1. [Install SASS](http://sass-lang.com/install)
+2. Run `make compile_css` from the root of the plugin to compile changes.
+3. Run `make watch_css` to watch for changes and auto-compile.
+
 ## Credits
 
 - API powered by <a href="https://darksky.net/">Dark Sky</a>
