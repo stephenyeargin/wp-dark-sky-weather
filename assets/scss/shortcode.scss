@@ -1,0 +1,39 @@
+.dark-sky-weather-shortcode {
+  .dark-sky-weather-container {
+    min-height: 135px;
+    min-width: 320px;
+    clear: both;
+    border: solid 1px #bababa;
+    margin-bottom: 1em;
+    border-radius: 10px;
+  }
+
+  .dark-sky-weather-icon {
+    float: left;
+    max-width: 135px;
+    margin-right: 15px;
+
+    img {
+      border-radius: 10px 0 0 10px;
+    }
+  }
+
+  .dark-sky-summary {
+    float: left;
+  }
+
+  .dark-sky-weather-temperature {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .dark-sky-weather-conditions {
+    font-size: 1rem;
+  }
+
+  .dark-sky-weather-attribution {
+    margin-top: -1.5em;
+    font-size: 0.5em;
+    text-align: right;
+  }
+}
